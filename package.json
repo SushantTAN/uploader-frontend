@@ -21,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:dev": "webpack-dev-server"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  },
+  "proxy": "https://murmuring-sands-22620.herokuapp.com/"
 }
